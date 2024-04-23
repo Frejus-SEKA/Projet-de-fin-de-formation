@@ -1,0 +1,595 @@
+* {
+    /*font-family: 'Courier New', Courier, monospace;*/
+    margin: 0;
+    font-family: "abolition, sans-serif";
+    list-style: none;
+    text-decoration: none;
+}
+
+/*----------------------------MENU DE NAVIGATION---------------------*/
+nav {
+    background-color: black;
+    display: flex;
+    color: #ffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+/*---------------------------Hamburger----------------------------*/
+.responsive {
+    display: none;
+}
+.Hamburger {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 60px;
+    color: #ffff;
+}
+
+.logo {
+    padding: 0px 30px;
+}
+
+.logo a img {
+    height: 50px;
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.menu ul :hover {
+    border-bottom: 2px solid rgb(69, 245, 45);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 6px 15px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.icon {
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+.icon a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+.icon a :hover {
+    color:rgb(69, 245, 45);
+}
+/*-----------------------VIDEO---------------------*/
+.intro-video {
+    display: block;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+.intro-video video {
+    height: 544px;
+    width: 830px;
+}
+
+/*--------------------------------REMPLISSAGE-------------------------*/
+.separateur {
+    display: block;
+    padding: 0 15px;
+    max-width: 50%px;
+    line-height: 1, 5em;
+}
+
+.block-1 {
+    background-image: url(/wp-content/themes/usg/assets/dist/svgs/shards-green.svg);
+    padding: 60px 20px 30px 20px;
+    background-position: 50%;
+}
+
+.grand-titre {
+    width: 100%;
+    margin: 0px 15px 32px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Ptitre {
+    margin: 0px 15px 24px 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.Ptitre-2 {
+    margin: 55px 65px 24px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.text {
+    margin: 0px 0px 24px 0px;
+    max-width: 95%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.tripplet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 100%;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+
+.image {
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.tripplet .contener-image .titre-image {
+    margin: 10px 0px 10px 55px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.tripplet .contener-image #Sadio {
+    margin-left: 80px;
+}
+
+.tripplet a h4 {
+    color: #000;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgb(69, 245, 45);
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+/*-------------------------BLOG IMAGE----------------------------*/
+.block-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    margin: 20px 10px 80px 70px;
+}
+
+/*---------------------BLOG IMAGE 1--------------------------------*/
+.block-images .contener-image {
+    height: 550px;
+    width: 500px;
+}
+.block-images .diff {
+    background: url('image/CI.jpg');
+    max-width: 100%;
+    border-radius: 25px;
+    background-size: 100%;
+    background-size: cover;
+    margin: 10px 15px;
+    height: 550px;
+    width: 500px;
+}
+
+.block-images .diff a {
+    color: #ffff;
+}
+
+.block-images .diff .le-lien {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.block-images .diff .block-images-sous {
+    padding: 10px 15px 5px 15px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.block-images .diff .block-images-sous h2 {
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.block-images .diff .block-images-sous .text-image {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*---------------------BLOG IMAGE 2--------------------------------*/
+.block-images #img-2 {
+    background: url('image/Nigeria.webp');
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 3--------------------------------*/
+.block-images #img-3 {
+    background: url('image/imilio.jpg');
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 4--------------------------------*/
+.block-images #img-4 {
+    background: url('image/Fae.jpg');
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 5--------------------------------*/
+.block-images #img-5 {
+    background: url('image/Gardien.jpg');
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 6--------------------------------*/
+.block-images #img-6 {
+    background: url('image/Adingra.jpg');
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------LIEN EN SAVOIR PLUS-------------------------------*/
+.block-images .lien-M {
+    margin-left: 465px;
+}
+
+.block-images .lien-M a h4 {
+    color: #000;
+}
+
+/*---------------------DERNIERE IMAGE----------------------------*/
+.separateur .D-image {
+    background: url('image/la\ coupe.jpg');
+    max-width: 100%;
+    background-size: 100%;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.separateur .D-image .cont {
+    width: 1000px;
+    padding: 40px 20px 20px 20px;
+    color: #ffff;
+
+}
+
+.separateur .D-image .cont h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.separateur .D-image .cont p {
+    width: 70vw;
+    margin-left: 120px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/*------------------------------------------FOOTER-------------------------------------*/
+footer {
+    color: rgb(69, 245, 45);
+}
+
+.bas-de-page {
+    background-color: #000;
+    height: 400px;
+    width: 1262px;
+}
+.bas-de-page .contener-footer {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.bas-de-page .contener-footer .logo-footer {
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.bas-de-page .contener-footer .logo-footer img {
+    width: 20vw;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.bas-de-page .contener-footer .menu-footer {
+    margin: 0px 0px 40px 270px;
+}
+.bas-de-page .contener-footer .menu-footer ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.bas-de-page .contener-footer .menu-footer ul li a {
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+    padding: 6px 20px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+.bas-de-page .contener-footer .menu-footer ul li a:hover {
+    border-bottom: 2px solid #ffff;
+}
+.bas-de-page .contener-footer .footer-e {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.5rem + 1.5vw);
+    color: #ffff;
+    text-transform: uppercase;
+}    
+.bas-de-page .contener-footer .icon-bas {
+    margin: 40px 0px 40px 470px;
+    font-size: 30px;
+}
+.bas-de-page .contener-footer .icon-bas a {
+    color: rgb(69, 245, 45);
+}
+.bas-de-page .contener-footer .icon-bas a :hover {
+    color: #ffff;
+}
+.bas-de-page .contener-footer .Copyright {
+    color: #ffff;
+    margin-left: 510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1170px) {
+    /*--------------ENTETE-----------*/
+    .responsive {
+        display: block;
+    }
+    .icons {
+        display: block;
+    }
+    .Hamburger {
+        display: block;
+    }
+    .icon {
+        display: none;
+    }
+    .logo a img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 50px;
+        width: 110px;
+    }
+    nav .menu ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: rgb(69, 245, 45);
+        width: 100%;
+        transition: 0.25s;
+    }
+    nav .menu ul li {
+        padding: 5px 0px;
+    }
+    nav .menu .active ul {
+        left: 0;
+    }
+    /*-------------VIDEO-----------*/
+    .intro-video {
+        height: auto;
+        max-width: 100%;
+    }
+    .intro-video video {
+        height: 40vh;
+        max-width: 100%;
+    }    
+    
+    /*--------------CONTENU------------*/
+    .tripplet{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tripplet .contener-image {
+        width: 300px;
+    }
+    .tripplet .lien {
+        position: absolute;
+        margin: 10px 0px 20px 70px;
+    }
+
+
+        /*-------------LES IMAGES------------*/
+    .block-images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        max-width: 100%;
+        margin: 20px 10px 80px 0px;
+    }
+    .block-images .lien-M {
+        margin-left: 100px;
+    }
+    .block-images .diff .le-lien {
+        width: 70%;
+        margin-left: auto;
+        margin-top: auto;
+        padding-top: 20px;
+    }
+/*-----------------DERNIERE IMAGE-----------------*/
+.separateur .D-image .cont {
+    width: 90%;
+    padding: 40px 20px 20px 20px;
+    color: #ffff;
+
+}
+.separateur .D-image .cont P {
+    width: 70vw;
+    margin-left: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*----------------------BAS DE PAGE-----------------*/
+    .bas-de-page {
+        height: 350px;
+        width: 100%;
+    }
+    .bas-de-page .contener-footer {
+        padding-top: 20px;
+        margin: 0px;
+    }
+    .bas-de-page .contener-footer .logo-footer {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .bas-de-page .contener-footer .logo-footer img {
+        width: 55vw;
+        height: 10vh;
+        border-radius: 50%;
+    }
+    .bas-de-page .contener-footer .menu-footer {
+        margin: 0px 0px 40px 10px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bas-de-page .contener-footer .menu-footer ul li a {
+        text-decoration: none;
+        color: rgb(69, 245, 45);
+        padding: 6px 10px ;
+        font-family: "abolition,sans-serif";
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .bas-de-page .contener-footer .footer-e {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        color: #ffff;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }    
+    .bas-de-page .contener-footer .icon-bas {
+        display: inline;
+        width: 100%;
+        height: 20px;
+        max-width: 100%;
+        padding: 0px;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .bas-de-page .contener-footer .icon-bas a {
+        color: rgb(69, 245, 45);
+    }
+    .bas-de-page .contener-footer .Copyright {
+        margin: 20px 0px 0px 0px;
+        width: 52%;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+
+
+
+
+    /*nav {
+        height: 80px;
+    }
+    .menu {
+        display: flex;
+        background-color: black;
+        justify-content: center; 
+        align-items: center;
+        width: 200%;
+        height: 100px;
+        margin-left: -1000%;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+    }
+    .menu ul li {
+        margin: 20px 0px;
+        font-size: 2em;
+    }
+    .logo a img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 50px;
+        width: 110px;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+
+
+
+
+*/
+}

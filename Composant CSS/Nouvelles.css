@@ -1,0 +1,768 @@
+* {
+    /*font-family: 'Courier New', Courier, monospace;*/
+    margin: 0;
+    font-family: "abolition, sans-serif";
+    list-style: none;
+    text-decoration: none;
+}
+
+/*----------------------------MENU DE NAVIGATION---------------------*/
+nav {
+    background-color: black;
+    display: flex;
+    color: #ffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+/*-------------Hamburger---------------*/
+.responsive {
+    display: none;
+}
+
+.Hamburger {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 60px;
+    color: #ffff;
+}
+
+.logo {
+    padding: 0px 30px;
+}
+
+.logo a img {
+    height: 50px;
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu ul :hover {
+    border-bottom: 2px solid rgb(69, 245, 45);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 6px 15px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu ul li .concerne1 {
+    color: rgb(69, 245, 45);
+}
+
+.icon {
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+.icon a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.icon a :hover {
+    color: rgb(69, 245, 45);
+}
+
+/*-----------------------IMAGE PRINCIPALE---------------------*/
+.intro-imageP {
+    display: block;
+    text-align: center;
+    background-color: black;
+    background-size: 100%;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.intro-imageP a {
+    transition: 10s;
+}
+.intro-imageP h1 {
+    position: absolute;
+    width: 100%;
+    margin-top: 45vh;
+    left: auto;
+    right: auto;
+    color: rgb(69, 245, 45);
+    font-size: calc(1.2rem + 1.5vw);
+}
+
+.intro-imageP #icon_dessous {
+    position: absolute;
+    margin-top: 55vh;
+    color: rgb(69, 245, 45);
+    width: 100%;
+    font-size: calc(1.5rem + 1.8vw);
+}
+
+.intro-imageP img {
+    height: auto;
+    width: 100%;
+}
+
+/*--------------------------------REMPLISSAGE-------------------------*/
+.separateur {
+    display: block;
+    padding: 0 15px;
+    max-width: 50%px;
+    line-height: 1, 5em;
+}
+
+.block-1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 60px;
+    background: #000;
+    color: #ffff;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-position: 100%;
+    height: 15vh;
+}
+
+.block-1 nav {
+    height: 40px;
+}
+
+.block-1 nav :hover {
+    color: rgb(69, 245, 45);
+    font-size: calc(0.5rem + 1vw);
+}
+
+.block-1 nav a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 8px 20px;
+    font-size: calc(0.5rem + 0.6vw);
+    font-weight: 600;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgb(69, 245, 45);
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+/*-------------------------BLOG IMAGE----------------------------*/
+.block-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    margin: 100px 10px 80px 70px;
+}
+
+/*---------------------BLOG IMAGE 1--------------------------------*/
+.block-images .diff {
+    background: url('../image/CI.jpg');
+    max-width: 100%;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    margin: 10px 15px;
+    height: 550px;
+    width: 500px;
+}
+
+.block-images .diff a {
+    color: #ffff;
+}
+
+.block-images .diff .le-lien {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.block-images .diff .block-images-sous {
+    padding: 10px 15px 5px 15px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.block-images .diff .block-images-sous h2 {
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.block-images .diff .block-images-sous .text-image {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*---------------------BLOG IMAGE 2--------------------------------*/
+.block-images #img-2 {
+    background: url('../image/Nigeria.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 3--------------------------------*/
+.block-images #img-3 {
+    background: url('../image/imilio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 4--------------------------------*/
+.block-images #img-4 {
+    background: url('../image/Fae.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 5--------------------------------*/
+.block-images #img-5 {
+    background: url('../image/Gardien.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 6--------------------------------*/
+.block-images #img-6 {
+    background: url('../image/Christiano.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 7--------------------------------*/
+.block-images #img-7 {
+    background: url('../image/martine.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 8--------------------------------*/
+.block-images #img-8 {
+    background: url('../image/Messi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 9--------------------------------*/
+.block-images #img-9 {
+    background: url('../image/Osimhen\ m.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 10--------------------------------*/
+.block-images #img-10 {
+    background: url('../image/bonou.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 11-------------------------------*/
+.block-images #img-11 {
+    background: url('../image/Adingra.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------BLOG IMAGE 12--------------------------------*/
+.block-images #img-12 {
+    background: url('../image/jude.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*---------------------NUMEROTATION-------------------------------*/
+.lien-M {
+    max-height: 30vh;
+    margin: 65px auto;
+    font-size: calc(0.5rem + 1.5vw);
+}
+
+.lien-M .num {
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.lien-M .num .couleur {
+    color: rgb(69, 245, 45);
+    ;
+}
+
+/*--------------------------------LE MILIEU-------------------------*/
+.reseau-sociaux {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+    color: #ffff;
+}
+
+.reseau-sociaux h3 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.8rem + 1.5vw);
+}
+
+.reseau-sociaux #le-milieu {
+    width: 23vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+.reseau-sociaux #le-milieu a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+}
+
+/*--------------------------------CONTACT-------------------------*/
+.contact {
+    padding: 40px 60px;
+}
+
+.contact .titre-contact {
+    margin: 40px 0px;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .titre-contact h4 {
+    font-size: calc(1.2rem + 1.5vw);
+}
+
+.formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group {
+
+    margin-bottom: 40px;
+}
+
+.form-group .form1 {
+    width: 42vw;
+    height: 40px;
+    border: 1.5px solid #000;
+}
+
+.form-group .form2 {
+    width: 42vw;
+    height: 40px;
+    border: 1.5px solid #000;
+}
+
+.form-group .form3 {
+    width: 89vw;
+    height: 26vh;
+    border: 1.5px solid #000;
+}
+
+::placeholder {
+    color: #000;
+    font-weight: 600;
+    font-size: calc(0.1rem + 1.5vw);
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: rgb(69, 245, 45);
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #131212;
+    color: rgb(69, 245, 45);
+}
+rgb(202, 139, 21);
+rgb(23, 21, 18);
+/*------------------------------------------FOOTER-------------------------------------*/
+footer {
+    color: rgb(69, 245, 45);
+}
+
+.bas-de-page {
+    background-color: #000;
+    height: 400px;
+    width: 1262px;
+}
+.bas-de-page .contener-footer {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.bas-de-page .contener-footer .logo-footer {
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.bas-de-page .contener-footer .logo-footer img {
+    width: 20vw;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.bas-de-page .contener-footer .menu-footer {
+    margin: 0px 0px 40px 270px;
+}
+
+.bas-de-page .contener-footer .menu-footer ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.bas-de-page .contener-footer .menu-footer ul li a {
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+    padding: 6px 20px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.bas-de-page .contener-footer .menu-footer ul li a:hover {
+    border-bottom: 2px solid #ffff;
+}
+
+.bas-de-page .contener-footer .footer-e {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.5rem + 1.5vw);
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.bas-de-page .contener-footer .icon-bas {
+    margin: 40px 0px 40px 470px;
+    font-size: 30px;
+}
+
+.bas-de-page .contener-footer .icon-bas a {
+    color: rgb(69, 245, 45);
+}
+
+.bas-de-page .contener-footer .Copyright {
+    color: #ffff;   
+    margin-left: 510px;
+}
+
+
+
+
+
+/*----------------------------------------------RESPONSIVE PART------------------------------------------*/
+
+@media screen and (max-width:1170px) {
+
+    /*--------------ENTETE-----------*/
+    .responsive {
+        display: block;
+    }
+
+    .icons {
+        display: block;
+    }
+
+    .Hamburger {
+        display: block;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .logo a img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 50px;
+        width: 110px;
+    }
+
+    nav .menu ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: rgb(69, 245, 45);
+        width: 100%;
+        transition: 0.25s;
+    }
+
+    nav .menu ul li {
+        padding: 5px 0px;
+    }
+
+    nav .menu .active ul {
+        left: 0;
+    }
+
+    /*-----------------------------IMAGE------------------------------*/
+    .intro-imageP {
+        text-align: center;
+        background-color: black;
+        background-size: 100%;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+
+    .intro-imageP h1 {
+        width: 100%;
+        margin-top: 20vh;
+    }
+
+    .intro-imageP #icon_dessous {
+        width: 100%;
+        margin-top: 25vh;
+    }
+
+    .intro-imageP img {
+        height: 40vh;
+        width: 100%;
+    }
+
+    /*-------------LES IMAGES------------*/
+    .block-images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        max-width: 100%;
+        margin: 20px 10px 80px 0px;
+    }
+
+    .block-images .lien-M {
+        margin-left: 100px;
+    }
+
+    .block-images .diff .le-lien {
+        width: 70%;
+        margin-left: auto;
+        margin-top: auto;
+        padding-top: 20px;
+    }
+
+    /*--------------------------------LE MILIEU-------------------------*/
+    .reseau-sociaux {
+        background-color: black;
+        height: 30vh;
+        max-width: 100%;
+        padding: 20px 0px 0px 0px;
+        color: #ffff;
+    }
+
+    .reseau-sociaux h3 {
+        margin-top: 100px;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: calc(0.6rem + 1.5vw);
+    }
+
+    .reseau-sociaux #le-milieu {
+        width: 65vw;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: calc(2rem + 1.5vw);
+    }
+
+    .reseau-sociaux #le-milieu a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(69, 245, 45);
+    }
+
+    /*---------------------NUMEROTATION-------------------------------*/
+    .lien-M .num {
+        width: 15vw;
+    }
+
+    /*--------------------------------CONTACT-------------------------*/
+    .contact {
+        padding: 40px 20px;
+    }
+
+    .contact .titre-contact {
+        margin: 35px 0px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact .titre-contact h4 {
+        font-size: calc(1.2rem + 1.5vw);
+    }
+
+    .formulaire {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form-group {
+        margin-bottom: 40px;
+    }
+
+    .form-group .form3 {
+        width: 89vw;
+        height: 18vh;
+        border: 1.5px solid #000;
+    }
+
+    ::placeholder {
+        color: #000;
+        font-weight: 600;
+        font-size: calc(0.6em + 1.5vw);
+    }
+
+    button {
+        display: block;
+        padding: 10px;
+        background-color: rgb(69, 245, 45);
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 38%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button:hover {
+        background-color: rgb(202, 139, 21);
+        color: rgb(23, 21, 18);
+    }
+
+    /*----------------------BAS DE PAGE-----------------*/
+    .bas-de-page {
+        height: 350px;
+        width: 100%;
+    }
+    .bas-de-page .contener-footer {
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+    .bas-de-page .contener-footer .logo-footer {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .bas-de-page .contener-footer .logo-footer img {
+        width: 30vw;
+        height: 8vh;
+        border-radius: 50%;
+    }
+    .bas-de-page .contener-footer .menu-footer {
+        margin: 0px 0px 40px 10px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bas-de-page .contener-footer .menu-footer ul li a {
+        text-decoration: none;
+        color: rgb(69, 245, 45);
+        padding: 6px 10px;
+        font-family: "abolition,sans-serif";
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .bas-de-page .contener-footer .footer-e {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        color: #ffff;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .bas-de-page .contener-footer .icon-bas {
+        display: inline;
+        width: 90%;
+        max-width: 100%;
+        padding: 0px;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+    .bas-de-page .contener-footer .icon-bas a {
+        color: rgb(69, 245, 45);
+    }
+
+    .bas-de-page .contener-footer .icon-bas a :hover {
+        color: #ffff;
+    }
+
+    .bas-de-page .contener-footer .Copyright {
+        margin: 20px 0px 0px 0px;
+        width: 52%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ffff;        
+    }
+}

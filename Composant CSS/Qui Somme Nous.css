@@ -1,0 +1,667 @@
+* {
+    /*font-family: 'Courier New', Courier, monospace;*/
+    margin: 0;
+    font-family: "abolition, sans-serif";
+    list-style: none;
+    text-decoration: none;
+}
+
+/*----------------------------MENU DE NAVIGATION---------------------*/
+nav {
+    background-color: black;
+    display: flex;
+    color: #ffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+/*---------------------------Hamburger----------------------------*/
+.responsive {
+    display: none;
+}
+.Hamburger {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 60px;
+    color: #ffff;
+}
+
+.logo {
+    padding: 0px 30px;
+}
+
+.logo a img {
+    height: 50px;
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.menu ul :hover {
+    border-bottom: 2px solid rgb(69, 245, 45);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 6px 15px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+.menu ul li .concerne1 {
+    color: rgb(69, 245, 45);
+}
+.icon {
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+.icon a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+/*-----------------------IMAGE PRINCIPALE---------------------*/
+.intro-imageP {
+    display: block;
+    text-align: center;
+    background-color: black;
+    background-size: 100%;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.intro-imageP h1 {
+    position: absolute;
+    width: 100%;
+    margin-top: 45vh;
+    left: auto;
+    right: auto;
+    color: rgb(69, 245, 45);
+    font-size: calc(1.2rem + 1.5vw);
+}
+.intro-imageP #icon_dessous {
+    position: absolute;
+    margin-top: 55vh;
+    color: rgb(69, 245, 45);
+    width: 100%;
+    font-size: calc(1.5rem + 1.8vw);
+}
+.intro-imageP img {
+    height: 480px;
+    width: 100%;
+}
+/*--------------------------------REMPLISSAGE-------------------------*/
+.separateur {
+    display: block;
+    padding: 0 15px;
+    max-width: 50%px;
+    line-height: 1, 5em;
+}
+
+.block-1 {
+    background-image: url(/wp-content/themes/usg/assets/dist/svgs/shards-green.svg);
+    padding: 60px 20px 30px 20px;
+    background-position: 50%;
+}
+
+.grand-titre {
+    width: 100%;
+    margin: 0px 15px 32px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-align: center;
+    font-size: calc(1rem + 1.5vw);
+}
+.titre-sous {
+    width: 90%;
+    margin: 0px 15px 32px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 30px;
+}  
+.text {
+    margin: 0px 0px 24px 0px;
+    max-width: 95%;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.text .para1 {
+    margin: 3px 0px 15px 0px;
+} 
+.text .para2 {
+    margin: 3px 0px 15px 0px;
+} 
+.text .para3 {
+    margin: 3px 0px 15px 0px;
+} 
+.text .para4 {
+    margin: 3px 0px 20px 0px;
+} 
+.text .para5 {
+    margin: 3px 0px 15px 0px;
+} 
+.effet {
+    width: 80vw;
+    height: 20px;
+    left: auto;
+    right: auto;
+    background-color: rgb(69, 245, 45);
+    border-radius: 70%;
+    margin: 0px 0px 30px 90px;
+}
+.contener-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    margin: 80px 10px 80px 25px;
+    padding: 10px;
+}
+.contener-image .image-1 {
+    background: url('../image/champion.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-2 {
+    background: url('../image/Argentine.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-3 {
+    background: url('../image/Manchester\ city.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-4 {
+    background: url('../image/euro.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-5 {
+    background: url('../image/napoli.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-6 {
+    background: url('../image/real.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-7 {
+    background: url('../image/bayern.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-8 {
+    background: url('../image/italie.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+.contener-image .image-9 {
+    background: url('../image/caf.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 360px;
+}
+/*--------------------------------LE MILIEU-------------------------*/
+.reseau-sociaux {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+    color: #ffff;
+}
+.reseau-sociaux h3 {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.8rem + 1.5vw);
+}
+.reseau-sociaux #le-milieu {
+    width: 23vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+.reseau-sociaux #le-milieu a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+}
+/*--------------------------------CONTACT-------------------------*/
+.contact {
+    padding: 40px 60px;
+}
+.contact .titre-contact {
+    margin: 40px 0px;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact .titre-contact h4 {
+    font-size: calc(1.2rem + 1.5vw);
+}
+
+.formulaire {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group {
+    
+    margin-bottom: 40px;
+  }
+  .form-group .form1 {
+    width: 42vw;
+    height: 40px;
+    border: 1.5px solid #000;
+  }
+  .form-group .form2 {
+    width: 42vw;
+    height: 40px;
+    border: 1.5px solid #000;
+  }
+  .form-group .form3 {
+    width: 89vw;
+    height: 26vh;
+    border: 1.5px solid #000;
+  }
+  
+  ::placeholder {
+    color: #000;
+    font-weight: 600;
+    font-size: calc(0.1rem + 1.5vw);
+  }
+  /*input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }*/
+  button {
+    display: block;
+    padding: 10px;
+    background-color: rgb(69, 245, 45);
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: #131212;
+    color: rgb(69, 245, 45);
+}
+
+/*--------------------------------FOOTER-------------------------*/
+footer {
+    color: rgb(69, 245, 45);
+}
+
+.bas-de-page {
+    background-color: #000;
+    height: 400px;
+    width: 1262px;
+}
+.bas-de-page .contener-footer {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.bas-de-page .contener-footer .logo-footer {
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.bas-de-page .contener-footer .logo-footer img {
+    width: 20vw;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.bas-de-page .contener-footer .menu-footer {
+    margin: 0px 0px 40px 270px;
+}
+.bas-de-page .contener-footer .menu-footer ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.bas-de-page .contener-footer .menu-footer ul li a {
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+    padding: 6px 20px;
+    font-family: "abolition,sans-serif";
+    font-weight: bold;
+    font-size: 22px;
+}
+.bas-de-page .contener-footer .menu-footer ul li a:hover {
+    border-bottom: 2px solid #ffff;
+}
+.bas-de-page .contener-footer .footer-e {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.5rem + 1.5vw);
+    color: #ffff;
+    text-transform: uppercase;
+}    
+.bas-de-page .contener-footer .icon-bas {
+    margin: 40px 0px 40px 470px;
+    font-size: 30px;
+}
+.bas-de-page .contener-footer .icon-bas a {
+    color: rgb(69, 245, 45);
+}
+.bas-de-page .contener-footer .Copyright {
+    color: #ffff;
+    margin-left: 510px;
+}
+
+/*----------------------------------------------------RESPONSIVE------------------------------------------------------*/
+
+@media screen and (max-width:1170px) {
+    /*--------------ENTETE-----------*/
+    .responsive {
+        display: block;
+    }
+    .icons {
+        display: block;
+    }
+    .Hamburger {
+        display: block;
+    }
+    .icon {
+        display: none;
+    }
+    .logo a img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 50px;
+        width: 110px;
+    }
+    nav .menu ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: rgb(69, 245, 45);
+        width: 100%;
+        transition: 0.25s;
+    }
+    nav .menu ul li {
+        padding: 5px 0px;
+    }
+    nav .menu .active ul {
+        left: 0;
+    }
+/*-----------------------------IMAGE------------------------------*/
+.intro-imageP {
+    text-align: center;
+    background-color: black;
+    background-size: 100%;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+    .intro-imageP h1 {
+        width: 100%;
+        margin-top: 20vh;
+    }
+    .intro-imageP #icon_dessous {
+        width: 100%;
+        margin-top: 25vh;
+    }
+    .intro-imageP img {
+        height: 44vh;
+        width: 100%;
+    }
+    
+/*--------------------------------REMPLISSAGE-------------------------*/
+.separateur {
+    display: block;
+    padding: 0px;
+    max-width: 50%px;
+    line-height: 1, 5em;
+}
+.block-1 {
+    background-image: url(/wp-content/themes/usg/assets/dist/svgs/shards-green.svg);
+    padding: 60px 18px 30px 18px;
+    background-position: 50%;
+}
+.titre-sous {
+    width: 90%;
+    margin: 30px 15px 32px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 30px;
+} 
+.grand-titre {
+    width: 100%;
+    margin: 0px 15px 32px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .01em;
+    line-height: 1em;
+    text-align: center;
+    font-size: calc(1rem + 1.4vw);
+}
+.text {
+    text-align: center;
+}
+.effet {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(69, 245, 45);
+    border-radius: 80%;
+    margin: 0px;
+}
+.contener-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: normal;
+    gap: 30px;
+    max-width: 100%;
+    margin: 30px 10px 30px 10px;
+    padding: 10px;
+}
+.contener-image #image_milieu {
+    max-width: 100%;
+    height: 150px;
+    width: 335px;
+}
+/*--------------------------------LE MILIEU-------------------------*/
+.reseau-sociaux {
+    background-color: black;
+    height: 30vh;
+    max-width: 100%;
+    padding: 20px 0px 0px 0px;
+    color: #ffff;
+}
+.reseau-sociaux h3 {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(0.6rem + 1.5vw);
+}
+.reseau-sociaux #le-milieu {
+    width: 65vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 1.5vw);
+}
+.reseau-sociaux #le-milieu a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(69, 245, 45);
+}
+/*--------------------------------CONTACT-------------------------*/
+.contact {
+    padding: 40px 20px;
+}
+.contact .titre-contact {
+    margin: 35px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact .titre-contact h4 {
+    font-size: calc(1.2rem + 1.5vw);
+}
+
+.formulaire {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 40px;
+  }
+  .form-group .form3 {
+    width: 89vw;
+    height: 18vh;
+    border: 1.5px solid #000;
+  }
+  ::placeholder {
+    color: #000;
+    font-weight: 600;
+    font-size: calc(0.6em + 1.5vw);
+  }
+  button {
+    display: block;
+    padding: 10px;
+    background-color: rgb(69, 245, 45);
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: rgb(202, 139, 21);
+    color: rgb(23, 21, 18);
+  }
+
+/*----------------------BAS DE PAGE-----------------*/
+    .bas-de-page {
+        height: 350px;
+        width: 100%;
+    }
+    .bas-de-page .contener-footer {
+        padding-top: 20px;
+        margin: 0px;
+    }
+    .bas-de-page .contener-footer .logo-footer {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .bas-de-page .contener-footer .logo-footer img {
+        width: 55vw;
+        height: 10vh;
+        border-radius: 50%;
+    }
+    .bas-de-page .contener-footer .menu-footer {
+        margin: 0px 0px 40px 10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bas-de-page .contener-footer .menu-footer ul li a {
+        text-decoration: none;
+        color: rgb(69, 245, 45);
+        padding: 6px 10px ;
+        font-family: "abolition,sans-serif";
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .bas-de-page .contener-footer .footer-e {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        color: #ffff;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }    
+    .bas-de-page .contener-footer .icon-bas {
+        display: inline;
+        width: 100%;
+        height: 20px;
+        max-width: 100%;
+        padding: 0px;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .bas-de-page .contener-footer .icon-bas a {
+        color: rgb(69, 245, 45);
+    }
+    .bas-de-page .contener-footer .icon-bas a :hover {
+        color: #ffff;
+    }
+    .bas-de-page .contener-footer .Copyright {
+        margin: 20px 0px 0px 0px;
+        width: 52%;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+}    
